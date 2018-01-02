@@ -107,3 +107,16 @@ footer a img{
 footer p{
   font-size: 0.8em;
 }
+.icona-social{
+  width: 70px;
+  height: 70px;
+  margin: 0 5px;
+}
+
+/* ABOUT */
+.foto-profilo{
+ display: block;
+ max-width: 200px;
+ margin: 0 auto 40px;
+ border-radius: 100%;
+}
