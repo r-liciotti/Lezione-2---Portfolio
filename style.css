@@ -59,6 +59,7 @@ nav ul{
 
 nav li{
   display: inline-block;
+  margin: 0 10px 0 0;
 }
 
 nav a.selected{
