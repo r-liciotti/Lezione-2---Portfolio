@@ -1,0 +1,52 @@
+
+/* Tablet */
+@media screen and (min-width: 480px) {
+
+  /* Contact */
+#info{
+  width: 50%;
+  float: left;
+}
+#contatti{
+  width: 40%;
+  float: right;
+}
+
+}
+
+/* Desktop */
+@media screen and (min-width: 660px){
+/* Header */
+#logo{
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+  text-align: left;
+}
+nav{
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+  background: none;
+  text-align: right;
+  padding-top: 55px;
+  font-size: 1.15em;
+}
+
+header{
+  border-bottom: 5px solid #1f1f1f;
+}
+
+
+/* About */
+.foto-profilo{
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+
+/* Portfolio */
+#gallery li{
+  width: 28.3333333333%;
+}
+}
