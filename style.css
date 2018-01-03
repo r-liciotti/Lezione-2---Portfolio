@@ -120,3 +120,30 @@ footer p{
  margin: 0 auto 40px;
  border-radius: 100%;
 }
+
+/* Contact */
+#contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact-info a{
+  color: #000000;
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px 0;
+}
+
+#contact-info li.phone a{
+  background-image: url("img/phone.png");
+}
+#contact-info li.mail a{
+  background-image: url("img/mail.png");
+}
+#contact-info li.facebook a{
+  background-image: url("img/facebook.png");
+}
