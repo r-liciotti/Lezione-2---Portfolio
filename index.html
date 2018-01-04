@@ -15,22 +15,24 @@
 </head>
 
 <body>
-  <header>
+  <header class="main-header clearfix">
     <a href="index.html" id="logo">
       <h1>Riccardo Liciotti</h1>
       <h2>Web Designer</h2>
     </a>
     <nav>
       <ul>
-        <li><a href="index.html" class="selected">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home" class="selected">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#info">Contact</a></li>
       </ul>
     </nav>
   </header>
-
+  <div class="banner">
+    <p>Check out my works</p>
+  </div>
   <!-- Wrapper  -->
-  <div id="wrapper">
+  <div class="wrapper clearfix">
     <!-- Contenuto -->
     <section>
       <ul id="gallery">
@@ -71,14 +73,42 @@
         </li>
       </ul>
     </section>
-
-    <footer>
-      <a href="http://www.facebook.com" target="blank">
+  </div>
+  <div class="container" id="about">
+    <div class="wrapper clearfix">
+      <section>
+        <img src="img/img-profilo.jpg" alt="Foto profilo" class="foto-profilo">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+    </div>
+  </div>
+  <div class="wrapper clearfix">
+    <!-- Contenuto -->
+    <section id="info">
+      <h3>Info</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu </p>
+    </section>
+    <section id="contatti">
+      <h3>Contatti</h3>
+      <ul id="contact-info">
+        <li class="facebook"><a href="http://www.facebook.it" target="blank">Riccardo Liciotti</a></li>
+        <li class="phone"><a href="tel:+39 3333333333">+39 3333333333</a></li>
+        <li class="mail"><a href="mailto:r.liciotti@gmail.com">r.liciotti@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+  </div>
+  <footer class="main-footer">
+    <a href="http://www.facebook.com" target="blank">
         <img src="img/facebook.png" alt="Facebook Profile" class="icona-social">
       </a>
-      <p>&copy; 2017 Riccardo Liciotti</p>
-    </footer>
-  </div>
+    <p>&copy; 2017 Riccardo Liciotti</p>
+  </footer>
+
 </body>
 
 </html>
