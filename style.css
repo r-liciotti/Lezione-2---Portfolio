@@ -133,6 +133,7 @@ nav a.selected{
 }
 .main-footer a img{
   max-width: 10%;
+  min-width: 70px;
 }
 .main-footer p{
   font-size: 0.8em;
