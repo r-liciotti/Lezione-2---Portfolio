@@ -2,14 +2,14 @@
 
 html, body {
   margin: 0;
-  height: 100%
+  height: 100%;
+
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1px;
   overflow-x: hidden;
-
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 .main-header {
   background: rgba(52, 52, 52, 0);
   padding: 5px 0 0 0;
-  transition: all 2s;
+  transition: all 0.2s;
 }
 
 .main-header h1, h2, * a {
@@ -41,6 +41,7 @@ a {
 .is-sticky .main-header {
   background: #333;
 }
+
 
 h1 {
   font-size: 1.8em;
@@ -63,8 +64,10 @@ h1, h2 {
 
 nav {
   text-align: center;
-  background-color: #1f1f1f;
-  padding: 5px 0 5px 0;
+  background: rgba(52, 52, 52, 0);
+  padding: 0;
+  transition: all 0.2s;
+
 }
 
 nav a {
@@ -78,9 +81,9 @@ nav a:hover {
 
 nav ul {
   list-style: none;
-  padding: 0;
   margin-bottom: 0;
-  margin-top: 50px;
+  margin-top: 0;
+  padding-left: 0;
 }
 
 nav li {
@@ -148,13 +151,7 @@ nav a.selected {
   height: 400px;
 }
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #9d9d9d;
-  transition: all 0.4s;
-}
+
 
 #gallery li:hover {
   box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.5);
@@ -162,7 +159,7 @@ nav a.selected {
 
 #gallery li a p {
   font-size: 0.85em;
-  color: #fff;
+  color: #333;
   padding: 4%;
   margin: 0;
 }

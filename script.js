@@ -1,43 +1,39 @@
 $(document).ready(function() {
-  $(".main-header").sticky({
+  $("#home .main-header").sticky({
     zIndex: 22
   });
-  $('.main-header').on('sticky-start', function() {
+  $('#home .main-header').on('sticky-start', function() {
 
-
-    $(".main-header").animate({
-      height: "49px"
-    }, 200);
-    $(".main-header h2").hide(200);
-    $(".main-header h1").animate({
+    $("#home .main-header").css("height", "60px");
+    $("#home .main-header h2").hide(300);
+    $("#home .main-header h1").animate({
       marginTop: "0px"
     }, 200);
-    $(".main-header nav ul").animate({
-      marginTop: "13px"
-    }, 200);
+    // $(".main-header nav ul").animate({
+    //   marginTop: "13px"
+    // }, 200);
 
   });
-  $('.main-header').on('sticky-end', function() {
-    $(".main-header").animate({
+  $('#home .main-header').on('sticky-end', function() {
+    $("#home .main-header").css("height", "79px");
+    $("#home .main-header").animate({
       height: "79px"
     }, 200);
-    $(".main-header").animate({
-      height: "79px"
-    }, 200);
-    $(".main-header h2").show(200);
-    $(".main-header h1").animate({
+    $("#home .main-header h2").show(300);
+    $("#home .main-header h1").animate({
       marginTop: "0px"
     }, 200);
-    $(".main-header nav ul").animate({
-      marginTop: "50px"
-    }, 200);
+    // $("#home .main-header nav ul").animate({
+    //   marginTop: "50px"
+    // }, 200);
   });
 
 
 
   //General Settings
   window.sr = ScrollReveal({
-    reset: true
+    reset: true,
+    mobile: false
   });
   // Custom Settings
   sr.reveal('.foo', {

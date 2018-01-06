@@ -1,6 +1,13 @@
 /* Tablet */
 
 @media screen and (min-width: 480px) {
+
+  nav ul{
+    margin-top: 0;
+  }
+
+
+
   /* Contact */
   #info {
     width: 50%;
@@ -9,6 +16,19 @@
   #contatti {
     width: 40%;
     float: right;
+  }
+  .banner {
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-image: url("img/banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #gallery li {
+    max-width: 100%;
   }
 }
 
@@ -25,20 +45,32 @@
   nav {
     float: right;
     width: 45%;
+    margin-top: 10px;
     margin-right: 5%;
-    background: none;
     text-align: right;
     padding-top: 0px;
     font-size: 1.15em;
   }
+
   .main-header {
     background: rgba(52, 52, 52, 0);
+    height: 40px;
   }
   .main-header h1, h2, * a {
     color: white;
   }
   .is-sticky .main-header {
     background: #333;
+  }
+  .banner {
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   /* About */
   .foto-profilo {
@@ -47,6 +79,9 @@
   }
   /* Portfolio */
   #gallery li {
+    float: left;
     width: 28.3333333333%;
+    margin: 2.5%;
+    transition: all 0.4s;
   }
 }
