@@ -34,8 +34,16 @@ nav{
 }
 
 .main-header{
-  border-bottom: 5px solid #1f1f1f;
+  background: rgba(52, 52, 52, 0);
 }
+.main-header h1,h2,* a{
+  color: white;
+}
+
+.is-sticky .main-header{
+  background: #333;
+}
+
 
 
 /* About */
