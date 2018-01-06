@@ -15,15 +15,4 @@ $(document).ready(function() {
 
   });
 
-
-  $(".banner p").sticky({
-    topSpacing: 85
-  });
-  $(".banner p").on('sticky-start', function() {
-
-    $(".banner p").css("color", "black");
-  });
-  $(".banner p").on('sticky-end', function() {
-    $(".banner p").css("color", "white");
-  });
 });
