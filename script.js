@@ -2,17 +2,18 @@ $(document).ready(function() {
   $(".main-header").sticky();
   $('.main-header').on('sticky-start', function() {
 
-    $(".main-header h2").hide();
-    $(".main-header h1").css("margin-top", "0px");
-    $(".main-header nav ul").css("margin-top", "13px");
+    $(".main-header").animate({height: "49px"}, 200);
+    $(".main-header h2").hide(200);
+    $(".main-header h1").animate({marginTop: "0px"},200);
+    $(".main-header nav ul").animate({marginTop: "13px"},200);
+
   });
   $('.main-header').on('sticky-end', function() {
-
-    $(".main-header h2").show();
-    $(".main-header h1").css("margin-top", "0px");
-    $(".main-header nav ul").css("margin-top", "50px");
-
-
+    $(".main-header").animate({height: "79px"}, 200);
+    $(".main-header").animate({height: "79px"}, 200);
+    $(".main-header h2").show(200);
+    $(".main-header h1").animate({marginTop: "0px"},200);
+    $(".main-header nav ul").animate({marginTop: "50px"},200);
   });
 
-});
+  });
