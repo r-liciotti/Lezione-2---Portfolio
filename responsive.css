@@ -1,59 +1,52 @@
-
 /* Tablet */
+
 @media screen and (min-width: 480px) {
-
   /* Contact */
-#info{
-  width: 50%;
-  float: left;
-}
-#contatti{
-  width: 40%;
-  float: right;
-}
-
+  #info {
+    width: 50%;
+    float: left;
+  }
+  #contatti {
+    width: 40%;
+    float: right;
+  }
 }
 
 /* Desktop */
-@media screen and (min-width: 660px){
-/* Header */
-#logo{
-  float: left;
-  width: 45%;
-  margin-left: 5%;
-  text-align: left;
-}
-nav{
-  float: right;
-  width: 45%;
-  margin-right: 5%;
-  background: none;
-  text-align: right;
-  padding-top: 0px;
-  font-size: 1.15em;
-}
 
-.main-header{
-  background: rgba(52, 52, 52, 0);
-}
-.main-header h1,h2,* a{
-  color: white;
-}
-
-.is-sticky .main-header{
-  background: #333;
-}
-
-
-
-/* About */
-.foto-profilo{
-  float: left;
-  margin-right: 5%;
-}
-
-/* Portfolio */
-#gallery li{
-  width: 28.3333333333%;
-}
+@media screen and (min-width: 660px) {
+  /* Header */
+  #logo {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  nav {
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    background: none;
+    text-align: right;
+    padding-top: 0px;
+    font-size: 1.15em;
+  }
+  .main-header {
+    background: rgba(52, 52, 52, 0);
+  }
+  .main-header h1, h2, * a {
+    color: white;
+  }
+  .is-sticky .main-header {
+    background: #333;
+  }
+  /* About */
+  .foto-profilo {
+    float: left;
+    margin-right: 5%;
+  }
+  /* Portfolio */
+  #gallery li {
+    width: 28.3333333333%;
+  }
 }
