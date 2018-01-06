@@ -19,12 +19,11 @@ $(document).ready(function() {
 
 
 
-
-  });
-
   //General Settings
   window.sr = ScrollReveal({ reset: true });
   // Custom Settings
 sr.reveal('.foo', {
   duration: 2800
 });
+
+  });
